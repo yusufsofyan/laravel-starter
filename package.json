@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "init": "composer install && npm install && cp .env.example .env"
+        "init": "composer install && npm install && copy .env.example .env && php artisan key:generate"
     },
     "devDependencies": {
         "@headlessui/react": "^1.4.2",
